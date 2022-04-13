@@ -2,9 +2,9 @@
 
 Docker Compose para desplegar Traefik + Portainer + Grafana + Prometheus
 
-1. Preparación
+## Preparación
 
-Crear las carpetas, ejecutar en la consola:
+1. Crear las carpetas, ejecutar en la consola:
 
 ```bash
 
