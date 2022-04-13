@@ -24,6 +24,6 @@ Docker Compose para desplegar Traefik + Portainer + Grafana + Prometheus
 
 ```bash
 
-sudo docker-compose up --remove-orphans
+  sudo docker-compose up --remove-orphans
 
 ```
