@@ -1,19 +1,29 @@
 # traefik-portainer-grafana-prometheus
+
 Docker Compose para desplegar Traefik + Portainer + Grafana + Prometheus
 
-## Preparación
-Crear las carpetas
+1. Preparación
 
-Ejecutar en la consola:
+Crear las carpetas, ejecutar en la consola:
 
-  for i in grafana-db portainer-db prometheus traefik; do
-    mkdir -p "./folders/${i}"
-  done
+```bash
 
-## Prometheus usa el UID 99, dar los permisos a la carpeta
+  for i in grafana-db portainer-db prometheus traefik; do mkdir -p "./folders/${i}"; done;
 
-sudo chown 99:99 ./folders/prometheus
+```
 
-## Ejecutar docker-compose
+2. Prometheus usa el UID 99, dar los permisos a la carpeta.
+
+```bash
+
+  sudo chown 99:99 ./folders/prometheus
+
+```
+
+3. Ejecutar docker-compose
+
+```bash
 
 sudo docker-compose up --remove-orphans
+
+```
