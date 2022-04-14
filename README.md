@@ -2,6 +2,11 @@
 
 Docker Compose para desplegar Traefik + Portainer + Grafana + Prometheus
 
+## Necesario
+
+- [Cloudflare](<https://dash.cloudflare.com/login>)
+- [OAUTH2](https://developers.google.com/identity/protocols/oauth2)
+
 ## Preparación
 
 1. Crear las carpetas, ejecutar en la consola:
